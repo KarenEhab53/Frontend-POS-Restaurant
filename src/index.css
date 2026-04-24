@@ -1,0 +1,62 @@
+:root {
+  /* Primary Brand */
+  --color-primary: #FF6B00;
+  --color-primary-light: #FF8A33;
+  --color-primary-dark: #E65C00;
+
+  /* Backgrounds */
+  --color-bg-main: #F5F6FA;
+  --color-bg-sidebar: #1F2A37;
+  --color-bg-card: #FFFFFF;
+  --color-bg-hover: #F1F1F1;
+
+  /* Text */
+  --color-text-primary: #1F2A37;
+  --color-text-secondary: #6B7280;
+  --color-text-light: #FFFFFF;
+
+  /* Status Colors */
+  --color-success: #22C55E;
+  --color-success-bg: #DCFCE7;
+
+  --color-danger: #EF4444;
+  --color-danger-bg: #FEE2E2;
+
+  --color-warning: #F59E0B;
+  --color-warning-bg: #FEF3C7;
+
+  /* Borders */
+  --color-border: #E5E7EB;
+  --color-border-light: #F3F4F6;
+
+  /* Buttons */
+  --color-btn-primary: var(--color-primary);
+  --color-btn-primary-hover: var(--color-primary-dark);
+
+  --color-btn-danger: #EF4444;
+  --color-btn-danger-hover: #DC2626;
+
+  --color-btn-disabled: #D1D5DB;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
+}
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root font + smooth rendering */
+html {
+  font-size: 18px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--color-bg-main);
+  color: var(--color-text-primary);
+}
