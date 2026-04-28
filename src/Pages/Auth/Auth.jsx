@@ -1,9 +1,14 @@
-import React from 'react'
+import style from "./Auth.module.css" 
+import Login from "./Login";
+import Register from "./Register";
 
-const Auth = () => {
-  return (
-    <div>Auth</div>
-  )
+function Auth (){
+    return (
+    <div className={style.parent}>
+     <Login/>
+    <Register/>
+   
+    </div>
+    )
 }
-
-export default Auth
+export default Auth;
