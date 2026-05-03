@@ -1,0 +1,111 @@
+.layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+.main {
+    flex: 1;
+}
+
+.content {
+    padding: 24px;
+}
+
+/* StatCard */
+.statCard {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 12px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.statIconWrapper {
+    width: 45px;
+    height: 45px;
+    border-radius: 8px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    flex-shrink: 0;
+}
+
+.statTitle {
+    font-size: 14px;
+    color: #6b7280;
+    margin: 0;
+}
+
+.statValue {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* Revenue Card */
+.revenueCard {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.revenueTitle {
+    font-size: 15px;
+    font-weight: 700;
+    color: #1f2937;
+    margin: 0;
+}
+
+.revenueValue {
+    font-size: 28px;
+    font-weight: 500;
+    color: #10b981;
+    margin-top: 4px;
+}
+
+/* Out of Stock Card */
+.outOfStockCard {
+    background-color: rgba(254,242,242,0.5);
+    border: 1px solid #fee2e2;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.outOfStockHeader {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #b91c1c;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.outOfStockTitle {
+    font-size: 15px;
+    margin: 0;
+}
+
+.outOfStockBadges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.badge {
+    background-color: rgba(254,226,226,0.5);
+    color: #dc2626;
+    font-size: 11px;
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-weight: 600;
+    border: 1px solid #fecaca;
+}
+
+/* Bottom section */
+.bottomSection {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}

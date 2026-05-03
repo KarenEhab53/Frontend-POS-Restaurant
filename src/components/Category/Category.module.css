@@ -1,0 +1,26 @@
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 95%;
+    list-style: none;
+
+}
+li{
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    cursor: pointer;    
+    background-color: var(--color-bg-main);
+    color: var(--color-text-primary);
+    font-weight: bold;
+    list-style: none;
+}           
+li:hover{
+    background-color: var(--color-primary);
+    color: var(--color-bg-card)
+}
+.active{
+    background-color: var(--color-primary);
+    color: var(--color-bg-card)
+}   
