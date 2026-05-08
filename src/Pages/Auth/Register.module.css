@@ -1,0 +1,104 @@
+.Register {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: var(--color-bg-main);
+    height: 100vh;
+    padding: 10px;
+    gap: 30px;
+}
+
+.Info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 400px;
+
+}
+
+
+h3{
+    /* margin: 5px; */
+    padding: 5px;
+    color: var(--color-primary);
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.Register label{
+    color: #E65C00;
+    font-size: 0.8rem;
+}
+
+.Register input{
+    height: 50px;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 30px;
+    border: 1px solid var(--color-bg-main);
+    font-size: 0.9rem;
+    width: 100%;
+    
+}
+
+.Register input:focus{
+    outline: none;
+    border:1px solid #dc783540;
+
+}
+
+.Register button{
+    background-color: var(--color-btn-primary);
+    color: var(--color-bg-hover);
+    border: none;
+    border-radius: 30px;
+    width: 130px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.0rem;
+    font-weight: 600;
+    transition: background 0.3s ease;
+    align-self:center;
+    
+}
+
+.Register button:hover{
+    background-color: var(--color-primary-light) ;
+}
+
+.Register a{
+    text-decoration: none;
+    color:var(--color-text-primary);
+    font-size: 0.8rem;
+}
+
+.Register a:hover {
+    text-decoration: underline;
+    color: var(--color-text-secondary);
+}
+
+.Name{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+
+}
+
+.Register select {
+    height: 5vh;
+    border-radius: 30px;
+    color: var(--color-bg-hover);
+    background: var(--color-primary-light);
+    padding: 0 20px; 
+    border: var(--color-primary-light);
+    margin-bottom: 15px;
+}
+
+.Register option {
+    background-color: white;
+    color: var(--color-primary-light);
+    padding: 10px; 
+}
