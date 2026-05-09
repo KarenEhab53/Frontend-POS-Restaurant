@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import Sidebar from "../../Dashboard Cashier/Sidebar/Sidebar";
-import Product from "../../Dashboard Cashier/Products/Product";
+import Sidebar from "../../components/Dashboard Cashier/Sidebar/Sidebar";
+import Product from "../../components/Dashboard Cashier/Products/Product";
 import menuItems from "../../menuItems";
 import styles from "./Dashboard.module.css";
-import Cart from "../../Dashboard Cashier/Cart/Cart";
+import Cart from "../../components/Dashboard Cashier/Cart/Cart";
 
 const Dashboard = () => {
   const [category, setCategory] = useState("All");

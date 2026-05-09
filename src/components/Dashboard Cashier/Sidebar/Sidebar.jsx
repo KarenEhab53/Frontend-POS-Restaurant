@@ -1,6 +1,6 @@
 import styles from "./Sidebar.module.css";
-import menuItems from "../../menuItems";
-import Categories from "../../components/Category/Categories";
+import menuItems from "../../../menuItems";
+import Categories from "../../../components/Category/Categories";
 
 const Sidebar = ({ category, setCategory }) => {
   const categories = [
