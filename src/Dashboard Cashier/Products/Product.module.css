@@ -39,6 +39,11 @@
     flex-direction: column;
     gap: 5px;
 }   
+.product .cards .card .cardContent .info h3{
+    font-size: 22px;
+    
+    font-weight: 600;
+}
 .available{
     font-size: 14px;
     background-color: var(--color-success);

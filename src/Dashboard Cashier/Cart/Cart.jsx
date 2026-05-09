@@ -61,7 +61,7 @@ const Cart = ({
           onClick={onConfirm}
           disabled={cartItems.length === 0}
         >
-          ✓ Confirm
+           Confirm
         </button>
       </div>
     </div>
