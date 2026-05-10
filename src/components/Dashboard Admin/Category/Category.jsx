@@ -1,30 +1,29 @@
 import React, { useState } from "react";
-import styles from "./Ingredients.module.css";
-import Table from "../../UI/Table/Table";
+import styles from "./Category.module.css";
+import menuItems from "../../../menuItems";
 import Form from "../../UI/Form/Form";
 import Modal from "../../UI/Form/Model/Model";
-import ingredientFields from "../../../ingredientFields";
-import menuItems from "../../../menuItems";
+import Table from "../../UI/Table/Table";
 import { FaPlus } from "react-icons/fa";
 
-const Ingredients = () => {
+const Category = () => {
   const [showForm, setShowForm] = useState(false);
 
   return (
-    <div className={styles.ingredients}>
+    <div className={styles.category}>
       <div className={styles.data}>
-        <h1>Ingredients Management</h1>
+        <h1>Category Management</h1>
         <button onClick={() => setShowForm(true)}>
           <FaPlus />
-          Add Ingredient
+          Add Category
         </button>
       </div>
 
       {showForm && (
         <Modal onClose={() => setShowForm(false)}>
           <Form
-            title="ingredients"
-            fields={ingredientFields}
+            title="Add Category"
+            fields={menuItems.categoryData}
             buttonText="Save"
             onClose={() => setShowForm(false)}
           />
@@ -32,10 +31,10 @@ const Ingredients = () => {
       )}
 
       <section>
-        <Table title="ingredients" fields={menuItems.inventoryData} />
+        <Table title="category" fields={menuItems.categoryData} />
       </section>
     </div>
   );
 };
 
-export default Ingredients;
+export default Category;

@@ -72,4 +72,60 @@
       available: true,
     },
   ];
-export default menuItems;
+  const inventoryData = [
+    {
+      id: 1,
+      name: "Bread",
+      quantity: 10,
+      unit: "piece",
+      minQuantity: 5,
+      status: "Available",
+    },
+    {
+      id: 2,
+      name: "Meat",
+      quantity: 5,
+      unit: "kg",
+      minQuantity: 3,
+      status: "Available",
+    },
+    {
+      id: 3,
+      name: "Cheese",
+      quantity: 0,
+      unit: "kg",
+      minQuantity: 2,
+      status: "Out",
+    },
+    {
+      id: 4,
+      name: "Lettuce",
+      quantity: 8,
+      unit: "piece",
+      minQuantity: 4,
+      status: "Available",
+    },
+    {
+      id: 5,
+      name: "Tomato",
+      quantity: 15,
+      unit: "piece",
+      minQuantity: 6,
+      status: "Available",
+    },
+  ];
+  const categoryData = [
+    {
+      id: 1,
+      name: "Main",
+    },
+    {
+      id: 2,
+      name: "Salad",
+    },
+    {
+      id: 3,
+      name: "Appetizer",
+    },
+  ];
+export default {  menuItems, inventoryData,categoryData};

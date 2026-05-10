@@ -1,0 +1,31 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.table thead {
+    background-color: var(--color-bg-hover);
+   
+}
+.table thead th{
+    padding: 10px;
+}
+.table tbody td{
+    padding: 10px;
+}
+.table tbody tr .Available,
+.table tbody td .update{
+color: var(--color-success);
+
+}
+.table tbody tr .Out,
+.table tbody td .delete{
+    color: var(--color-btn-danger-hover);
+}
+.table tbody td button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}

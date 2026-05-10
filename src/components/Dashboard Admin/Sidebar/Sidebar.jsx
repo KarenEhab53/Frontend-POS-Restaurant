@@ -7,7 +7,7 @@ const links = [
     { icon: "bi bi-box-seam", title: "Ingredients", path: "/ingredients" },
     { icon: "bi bi-bag-dash", title: "Products", path: "/products" },
     { icon: "fa-solid fa-clipboard-list", title: "Orders", path: "/orders" },
-    { icon: "fa-solid fa-warehouse", title: "Inventory", path: "/inventory" },
+    { icon: "fa-solid fa-warehouse", title: "Category", path: "/category" },
 ];
 
 export default function Sidebar() {
